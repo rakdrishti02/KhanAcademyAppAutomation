@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="284160" started-at="2020-09-15T06:41:42Z" finished-at="2020-09-15T06:46:26Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="284160" started-at="2020-09-15T06:41:42Z" finished-at="2020-09-15T06:46:26Z">
+      <class name="Practise.MobileProjectSubmission.ScenarioExecution">
+        <test-method status="PASS" signature="openApp()[pri:1, instance:Practise.MobileProjectSubmission.ScenarioExecution@6e1ec318]" name="openApp" duration-ms="52683" started-at="2020-09-15T12:11:42Z" finished-at="2020-09-15T12:12:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method status="PASS" signature="Signin()[pri:2, instance:Practise.MobileProjectSubmission.ScenarioExecution@6e1ec318]" name="Signin" duration-ms="22840" started-at="2020-09-15T12:12:35Z" depends-on-methods="Practise.MobileProjectSubmission.ScenarioExecution.openApp" finished-at="2020-09-15T12:12:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Signin -->
+        <test-method status="PASS" signature="selectCourse()[pri:3, instance:Practise.MobileProjectSubmission.ScenarioExecution@6e1ec318]" name="selectCourse" duration-ms="46767" started-at="2020-09-15T12:12:57Z" depends-on-methods="Practise.MobileProjectSubmission.ScenarioExecution.Signin" finished-at="2020-09-15T12:13:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectCourse -->
+        <test-method status="PASS" signature="selectLanguage()[pri:4, instance:Practise.MobileProjectSubmission.ScenarioExecution@6e1ec318]" name="selectLanguage" duration-ms="143620" started-at="2020-09-15T12:13:44Z" depends-on-methods="Practise.MobileProjectSubmission.ScenarioExecution.selectCourse" finished-at="2020-09-15T12:16:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectLanguage -->
+        <test-method status="PASS" signature="logout()[pri:5, instance:Practise.MobileProjectSubmission.ScenarioExecution@6e1ec318]" name="logout" duration-ms="18181" started-at="2020-09-15T12:16:08Z" depends-on-methods="Practise.MobileProjectSubmission.ScenarioExecution.selectLanguage" finished-at="2020-09-15T12:16:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- Practise.MobileProjectSubmission.ScenarioExecution -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
